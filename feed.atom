@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>.//</id>
     <title>Sliminal Zone</title>
-    <updated>2025-10-29T03:16:03.729Z</updated>
+    <updated>2025-10-29T03:33:44.196Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Slim Lim</name>
@@ -15,6 +15,200 @@
     <logo>https://slim.computer/assets/img/headshot.jpg</logo>
     <icon>./1f344.png</icon>
     <rights>CC BY-NC 4.0 Slim Lim</rights>
+    <entry>
+        <title type="html"><![CDATA[Look mom I have a blog now]]></title>
+        <id>./finally.html</id>
+        <link href="./finally.html"/>
+        <updated>2024-06-20T01:21:00.000Z</updated>
+        <content type="html"><![CDATA[
+    <!doctype html>
+    <html lang="en">
+    <head>
+      <title>Look mom I have a blog now</title>
+      <link rel="Shortcut Icon" type="image/x-icon" href="./1f344.png" />
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="alternate" type="application/atom+xml" title="Feed" href="https://slim.computer/blug/feed.atom">
+
+      <meta property="og:title" content="Look mom I have a blog now" />
+      <meta property="og:image" content="https://slim.computer/assets/img/headshot.jpg" />
+
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="sliminality" />
+      <meta name="twitter:title" content="Look mom I have a blog now" />
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./style.css">
+      <link rel="preload" href="./prism-coy.css" as="style">
+      <link rel="preload" href="./prism-tomorrow.css" as="style">
+      <link id="prism" rel="stylesheet" href="./prism-coy.css">
+      <link rel="stylesheet" href=./katex.min.css>
+    </head>
+    <body>
+      <script>0</script>
+      <main class="p03239430">
+        <header>
+          <a href="./">Home</a>
+          <button id="toggle-btn" aria-label="enable dark theme">🌙</button>
+        </header>
+        <h1>Look mom I have a blog now</h1>
+        <div class="text" id="b5e18bd1f">
+      On <a href="https://en.wikipedia.org/wiki/Juneteenth">19 June</a>, 2024 I <a href="https://twitter.com/sliminality/status/1803467195474641251">tweeted</a>:
+      <div class="children"></div>
+    </div>
+<blockquote>
+      <p>I swear to you all that by the end of today, I'll have a blog. I will not be waylaid by styling, or building Hakyll in a Nix environment on Apple Silicon, or writing my own static site generator. I will use Adobe Dreamweaver if I have to. Cyberbully me if I don't follow through</p>
+      
+    </blockquote>
+<div class="text" id="b75f5f976">
+      This website represents my follow-through. If you have complaints about the layout, typography, accessibility, bundle size, etc. please keep in mind that the alternative was Adobe Dreamweaver hosted by GoDaddy.
+      <div class="children"></div>
+    </div>
+<h2 id="why-are-you-like-this-">
+      <a href="#why-are-you-like-this-" class="link">🔗</a>
+      Why are you like this?
+    </h2>
+<div class="text" id="bf4b88687">
+      I have wanted a blog for <em>so long</em>. For years I’ve scattered my writings across the Web in completely inscrutable locations, wallowing in envy as my friends with the good blogs expressed themselves with rich technical content, beautiful styling, and readable URLs. 
+      <div class="children"></div>
+    </div>
+<div class="text" id="bbf21dd2f">
+      So why haven’t I made a blog? Because for someone like me, standing up a blog is one of the <em>most ontologically-fraught tasks of the modern era</em>:
+      <div class="children"></div>
+    </div>
+<ul id="b7cc65943"><li id="bbf60ab0f">
+      <div class="list-item">
+        If you ask a normal person, “How should I represent a bunch of documents and render them on the internet for public consumption?” they will come up with a reasonable answer like <a href="https://substack.com/">Substack</a>, <a href="https://medium.com/">Medium</a>, <a href="https://wordpress.com/">WordPress</a>, <a href="https://ghost.org/">Ghost</a>, <a href="https://posthaven.com/">Posthaven</a>, <a href="https://www.notion.so/">Notion</a> (disclaimer: I work there), <a href="https://pages.github.com/">GitHub Pages</a>, <a href="https://gist.github.com/">GitHub Gists</a>, <a href="https://github.com/frankmcsherry/blog">GitHub repos</a>, <a href="https://vercel.com/">Vercel</a>, <a href="https://jekyllrb.com/">Jekyll</a>, <a href="https://jaspervdj.be/hakyll/">Hakyll</a>, <a href="https://download.racket-lang.org/releases/8.1/doc/scribble/index.html">Scribble</a>, plaintext files on an HTTP server, or writing your own static site generator using <a href="https://pandoc.org/">pandoc</a> (disclaimer: I don’t work there but you’d be forgiven for thinking I do).
+      </div>
+      
+    </li>
+<li id="b02d76682">
+      <div class="list-item">
+        If you ask me the same question, I will open my mouth and an enormous stream of bats will come flying out, followed by the entire Internet Explorer 7 binary in UTF-16.
+      </div>
+      
+    </li></ul>
+<div class="text" id="be757502d">
+      And that is why I haven’t made a blog until today.
+      <div class="children"></div>
+    </div>
+<h2 id="what-did-you-end-up-using-">
+      <a href="#what-did-you-end-up-using-" class="link">🔗</a>
+      What did you end up using?
+    </h2>
+<div class="text" id="b2318fd07">
+      To get this blog up in one day (including writing all of the initial content), I have imposed the following rules to prevent yak-shaving:
+      <div class="children"></div>
+    </div>
+<ul id="b8a19cb6e"><li id="b6d2fef1d">
+      <div class="list-item">
+        I write all my posts in production <a href="https://www.notion.so/">Notion</a>. <em>(While I’m using Notion as an off-the-shelf editor, I will concede this arguably violates the yak-shaving principle, since I </em><a href="https://x.com/NotionHQ/status/1270445764062228480"><em>built and shipped inline equations</em></a><em> expressly in preparation for my future blog. But that was in 2020, so the statute of limitations has expired.)</em>
+      </div>
+      
+    </li>
+<li id="b657ac46b">
+      <div class="list-item">
+        I generate a static site using <a href="https://github.com/jdan/notes">this framework</a> written by my friend and coworker <a href="https://jordanscales.com/">Jordan Scales</a>. I am not allowed to modify any of the code, except to comment out lines when something breaks, and update hard-coded metadata containing his name and email.
+      </div>
+      
+    </li>
+<li id="bac4afec1">
+      <div class="list-item">
+        I deploy the output directly to GitHub Pages. Eventually I will have a shell script to handle deploys, similar to the one I wrote for my <a href="https://slim.computer/">personal homepage</a>. For now, everything is manual.
+      </div>
+      
+    </li></ul>
+<h2 id="what-s-next-">
+      <a href="#what-s-next-" class="link">🔗</a>
+      What’s next?
+    </h2>
+<div class="text" id="b36db1ff6">
+      There are a lot of things I’d like to tweak about this blog, ranging from the design (typography, spacing, colors) to the build structure to adding support for more block types to rewriting everything in Rust. But since my overarching goal is simply to write more, even if it’s absolute brain slop, I’ll probably establish some inane rule like “1 post = 1 cosmetic improvement” to goad myself into compliance.
+      <div class="children"></div>
+    </div>
+<h2 id="thanks-to-our-platinum-sponsors">
+      <a href="#thanks-to-our-platinum-sponsors" class="link">🔗</a>
+      Thanks to our platinum sponsors
+    </h2>
+<ul id="bc8c63c8c"><li id="b18cee4ce">
+      <div class="list-item">
+        <a href="https://jordanscales.com/">Jordan Scales</a> for the <a href="https://github.com/jdan/notes">static site generator</a> and providing high-quality telephone support
+      </div>
+      
+    </li>
+<li id="b2b15d687">
+      <div class="list-item">
+        <a href="https://tyoverby.com/">Ty Overby</a> for providing room, board, and motivation while I cut a ten-year procrastination habit in one day
+      </div>
+      
+    </li></ul><div class="text" id="b338ac5ac">
+      
+      <div class="children"></div>
+    </div>
+        <footer><label>mentioned in</label><ul><li><a href="./index.html" class="with-emoji">
+      <img class="emoji" alt="" src="./1f344.png">
+      Sliminal Zone</a></li></ul></footer>
+      </main>
+      <script>const stylesheet = /** @type {HTMLElement} */ (
+  document.getElementById("prism")
+);
+const toggleBtn = /** @type {HTMLElement} */ (
+  document.getElementById("toggle-btn")
+);
+
+/**
+ * Set the theme to either light or dark.
+ * @param {boolean} isDark
+ */
+function setTheme(isDark) {
+  if (isDark) {
+    localStorage.setItem("theme", "dark");
+    document.body.classList.add("dark");
+    toggleBtn.innerHTML = "☀️";
+    toggleBtn.setAttribute("aria-label", "enable light theme");
+    stylesheet.setAttribute("href", "/prism-tomorrow.css");
+  } else {
+    localStorage.setItem("theme", "light");
+    document.body.classList.remove("dark");
+    toggleBtn.innerHTML = "🌙";
+    toggleBtn.setAttribute("aria-label", "enable dark theme");
+    stylesheet.setAttribute("href", "/prism-coy.css");
+  }
+}
+
+function toggleTheme() {
+  if (localStorage.getItem("theme") === "dark") {
+    setTheme(false);
+  } else {
+    setTheme(true);
+  }
+}
+
+if (!localStorage.getItem("theme")) {
+  const osTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+  localStorage.setItem("theme", osTheme);
+}
+
+toggleBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  toggleTheme();
+});
+setTheme(localStorage.getItem("theme") === "dark");
+</script>
+    </body>
+    </html>
+  ]]></content>
+        <author>
+            <name>Slim Lim</name>
+            <email>slim@sarahlim.com</email>
+            <uri>https://slim.computer</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The unreasonable effectiveness of chaotic knowledge acquisition]]></title>
         <id>./chaotic-learning.html</id>
@@ -67,7 +261,7 @@
       This two-phase division arises repeatedly throughout my learning process:
       <div class="children"></div>
     </div>
-<ul id="b30d1f163"><li id="b1cc592e0">
+<ul id="b322b5aa4"><li id="b1cc592e0">
       <div class="list-item">
         <strong>In my notes:</strong> I have a “messy buffer” filled with annotations and arrows and marginalia in six colors. Aspirationally, all of this information eventually lands in a “neat buffer” consisting of either clear <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>TeX</mtext></mrow><annotation encoding="application/x-tex">\TeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span>ed PDF notes, or tidily handwritten pages with meaningful use of color and spatial arrangement.
       </div>
@@ -135,7 +329,7 @@
       There’s also a distinct, but related version of this “passive learning” phenomenon, which I frequently experience as follows: 
       <div class="children"></div>
     </div>
-<ol id="be950aff4"><li id="b7dc6d55a">
+<ol id="b0f2b093a"><li id="b7dc6d55a">
       <div class="list-item">
         I’m in a seminar, and someone introduces a concept. It sounds interesting, so I make a note to go over it later, and follow the rest of the talk at the level of vibes only. 
       </div>
@@ -176,7 +370,7 @@
       Increasingly I’ve come to recognize that <strong>messy thought serves not only as preparation for neat thought, but has learning value unto itself</strong> for me, and neat thought processes—while satisfying—are not always a prerequisite for proper understanding. For me, this implies the the following corollaries:
       <div class="children"></div>
     </div>
-<ul id="b459440b0"><li id="bb0fcff08">
+<ul id="b602bbfcf"><li id="bb0fcff08">
       <div class="list-item">
         If someone asks for help understanding a parked concept, or if I re-encounter something in my own exploration, I shouldn’t immediately retreat simply because I haven’t had time to digest the prerequisites. It’s important to communicate my uncertainty and lack of expertise, particularly with collaborators, but I can try to make sense of things anyway; often this yields more fruit than my dessicated hopes might expect.
       </div>
@@ -334,7 +528,7 @@ setTheme(localStorage.getItem("theme") === "dark");
     </div><div class="text" id="b29a93c44">
       A few miscellaneous concluding observations:
       <div class="children"></div>
-    </div><ul id="b8f3bfd12"><li id="b29a93c44">
+    </div><ul id="b0953d54e"><li id="b29a93c44">
       <div class="list-item">
         Recency bias is always possible, but I definitely think this phenomenon has become more pronounced over time. I can’t tell whether it’s because my command of language is eroding (making it harder to shape the slurry of instincts, feelings, and plasma into something cogent), my thoughts have simply become more complex as I grow up and learn more about the world, or a combination of both.
       </div>
@@ -358,200 +552,6 @@ setTheme(localStorage.getItem("theme") === "dark");
       </div>
       
     </li></ul>
-        <footer><label>mentioned in</label><ul><li><a href="./index.html" class="with-emoji">
-      <img class="emoji" alt="" src="./1f344.png">
-      Sliminal Zone</a></li></ul></footer>
-      </main>
-      <script>const stylesheet = /** @type {HTMLElement} */ (
-  document.getElementById("prism")
-);
-const toggleBtn = /** @type {HTMLElement} */ (
-  document.getElementById("toggle-btn")
-);
-
-/**
- * Set the theme to either light or dark.
- * @param {boolean} isDark
- */
-function setTheme(isDark) {
-  if (isDark) {
-    localStorage.setItem("theme", "dark");
-    document.body.classList.add("dark");
-    toggleBtn.innerHTML = "☀️";
-    toggleBtn.setAttribute("aria-label", "enable light theme");
-    stylesheet.setAttribute("href", "/prism-tomorrow.css");
-  } else {
-    localStorage.setItem("theme", "light");
-    document.body.classList.remove("dark");
-    toggleBtn.innerHTML = "🌙";
-    toggleBtn.setAttribute("aria-label", "enable dark theme");
-    stylesheet.setAttribute("href", "/prism-coy.css");
-  }
-}
-
-function toggleTheme() {
-  if (localStorage.getItem("theme") === "dark") {
-    setTheme(false);
-  } else {
-    setTheme(true);
-  }
-}
-
-if (!localStorage.getItem("theme")) {
-  const osTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
-    ? "dark"
-    : "light";
-  localStorage.setItem("theme", osTheme);
-}
-
-toggleBtn.addEventListener("click", (e) => {
-  e.preventDefault();
-  toggleTheme();
-});
-setTheme(localStorage.getItem("theme") === "dark");
-</script>
-    </body>
-    </html>
-  ]]></content>
-        <author>
-            <name>Slim Lim</name>
-            <email>slim@sarahlim.com</email>
-            <uri>https://slim.computer</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Look mom I have a blog now]]></title>
-        <id>./finally.html</id>
-        <link href="./finally.html"/>
-        <updated>2024-06-20T01:21:00.000Z</updated>
-        <content type="html"><![CDATA[
-    <!doctype html>
-    <html lang="en">
-    <head>
-      <title>Look mom I have a blog now</title>
-      <link rel="Shortcut Icon" type="image/x-icon" href="./1f344.png" />
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-
-      <link rel="alternate" type="application/atom+xml" title="Feed" href="https://slim.computer/blug/feed.atom">
-
-      <meta property="og:title" content="Look mom I have a blog now" />
-      <meta property="og:image" content="https://slim.computer/assets/img/headshot.jpg" />
-
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:site" content="sliminality" />
-      <meta name="twitter:title" content="Look mom I have a blog now" />
-
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="./style.css">
-      <link rel="preload" href="./prism-coy.css" as="style">
-      <link rel="preload" href="./prism-tomorrow.css" as="style">
-      <link id="prism" rel="stylesheet" href="./prism-coy.css">
-      <link rel="stylesheet" href=./katex.min.css>
-    </head>
-    <body>
-      <script>0</script>
-      <main class="p03239430">
-        <header>
-          <a href="./">Home</a>
-          <button id="toggle-btn" aria-label="enable dark theme">🌙</button>
-        </header>
-        <h1>Look mom I have a blog now</h1>
-        <div class="text" id="b5e18bd1f">
-      On <a href="https://en.wikipedia.org/wiki/Juneteenth">19 June</a>, 2024 I <a href="https://twitter.com/sliminality/status/1803467195474641251">tweeted</a>:
-      <div class="children"></div>
-    </div>
-<blockquote>
-      <p>I swear to you all that by the end of today, I'll have a blog. I will not be waylaid by styling, or building Hakyll in a Nix environment on Apple Silicon, or writing my own static site generator. I will use Adobe Dreamweaver if I have to. Cyberbully me if I don't follow through</p>
-      
-    </blockquote>
-<div class="text" id="b75f5f976">
-      This website represents my follow-through. If you have complaints about the layout, typography, accessibility, bundle size, etc. please keep in mind that the alternative was Adobe Dreamweaver hosted by GoDaddy.
-      <div class="children"></div>
-    </div>
-<h2 id="why-are-you-like-this-">
-      <a href="#why-are-you-like-this-" class="link">🔗</a>
-      Why are you like this?
-    </h2>
-<div class="text" id="bf4b88687">
-      I have wanted a blog for <em>so long</em>. For years I’ve scattered my writings across the Web in completely inscrutable locations, wallowing in envy as my friends with the good blogs expressed themselves with rich technical content, beautiful styling, and readable URLs. 
-      <div class="children"></div>
-    </div>
-<div class="text" id="bbf21dd2f">
-      So why haven’t I made a blog? Because for someone like me, standing up a blog is one of the <em>most ontologically-fraught tasks of the modern era</em>:
-      <div class="children"></div>
-    </div>
-<ul id="b54c3efa0"><li id="bbf60ab0f">
-      <div class="list-item">
-        If you ask a normal person, “How should I represent a bunch of documents and render them on the internet for public consumption?” they will come up with a reasonable answer like <a href="https://substack.com/">Substack</a>, <a href="https://medium.com/">Medium</a>, <a href="https://wordpress.com/">WordPress</a>, <a href="https://ghost.org/">Ghost</a>, <a href="https://posthaven.com/">Posthaven</a>, <a href="https://www.notion.so/">Notion</a> (disclaimer: I work there), <a href="https://pages.github.com/">GitHub Pages</a>, <a href="https://gist.github.com/">GitHub Gists</a>, <a href="https://github.com/frankmcsherry/blog">GitHub repos</a>, <a href="https://vercel.com/">Vercel</a>, <a href="https://jekyllrb.com/">Jekyll</a>, <a href="https://jaspervdj.be/hakyll/">Hakyll</a>, <a href="https://download.racket-lang.org/releases/8.1/doc/scribble/index.html">Scribble</a>, plaintext files on an HTTP server, or writing your own static site generator using <a href="https://pandoc.org/">pandoc</a> (disclaimer: I don’t work there but you’d be forgiven for thinking I do).
-      </div>
-      
-    </li>
-<li id="b02d76682">
-      <div class="list-item">
-        If you ask me the same question, I will open my mouth and an enormous stream of bats will come flying out, followed by the entire Internet Explorer 7 binary in UTF-16.
-      </div>
-      
-    </li></ul>
-<div class="text" id="be757502d">
-      And that is why I haven’t made a blog until today.
-      <div class="children"></div>
-    </div>
-<h2 id="what-did-you-end-up-using-">
-      <a href="#what-did-you-end-up-using-" class="link">🔗</a>
-      What did you end up using?
-    </h2>
-<div class="text" id="b2318fd07">
-      To get this blog up in one day (including writing all of the initial content), I have imposed the following rules to prevent yak-shaving:
-      <div class="children"></div>
-    </div>
-<ul id="be9a7ca4e"><li id="b6d2fef1d">
-      <div class="list-item">
-        I write all my posts in production <a href="https://www.notion.so/">Notion</a>. <em>(While I’m using Notion as an off-the-shelf editor, I will concede this arguably violates the yak-shaving principle, since I </em><a href="https://x.com/NotionHQ/status/1270445764062228480"><em>built and shipped inline equations</em></a><em> expressly in preparation for my future blog. But that was in 2020, so the statute of limitations has expired.)</em>
-      </div>
-      
-    </li>
-<li id="b657ac46b">
-      <div class="list-item">
-        I generate a static site using <a href="https://github.com/jdan/notes">this framework</a> written by my friend and coworker <a href="https://jordanscales.com/">Jordan Scales</a>. I am not allowed to modify any of the code, except to comment out lines when something breaks, and update hard-coded metadata containing his name and email.
-      </div>
-      
-    </li>
-<li id="bac4afec1">
-      <div class="list-item">
-        I deploy the output directly to GitHub Pages. Eventually I will have a shell script to handle deploys, similar to the one I wrote for my <a href="https://slim.computer/">personal homepage</a>. For now, everything is manual.
-      </div>
-      
-    </li></ul>
-<h2 id="what-s-next-">
-      <a href="#what-s-next-" class="link">🔗</a>
-      What’s next?
-    </h2>
-<div class="text" id="b36db1ff6">
-      There are a lot of things I’d like to tweak about this blog, ranging from the design (typography, spacing, colors) to the build structure to adding support for more block types to rewriting everything in Rust. But since my overarching goal is simply to write more, even if it’s absolute brain slop, I’ll probably establish some inane rule like “1 post = 1 cosmetic improvement” to goad myself into compliance.
-      <div class="children"></div>
-    </div>
-<h2 id="thanks-to-our-platinum-sponsors">
-      <a href="#thanks-to-our-platinum-sponsors" class="link">🔗</a>
-      Thanks to our platinum sponsors
-    </h2>
-<ul id="b5adfec63"><li id="b18cee4ce">
-      <div class="list-item">
-        <a href="https://jordanscales.com/">Jordan Scales</a> for the <a href="https://github.com/jdan/notes">static site generator</a> and providing high-quality telephone support
-      </div>
-      
-    </li>
-<li id="b2b15d687">
-      <div class="list-item">
-        <a href="https://tyoverby.com/">Ty Overby</a> for providing room, board, and motivation while I cut a ten-year procrastination habit in one day
-      </div>
-      
-    </li></ul><div class="text" id="b338ac5ac">
-      
-      <div class="children"></div>
-    </div>
         <footer><label>mentioned in</label><ul><li><a href="./index.html" class="with-emoji">
       <img class="emoji" alt="" src="./1f344.png">
       Sliminal Zone</a></li></ul></footer>
