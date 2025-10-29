@@ -303,7 +303,7 @@ async function textToHtml(pageId, text, allPages) {
         // Hmmmm safe?
         content = content.replace(
           new RegExp(emoji, "ug"),
-          `<img class="emoji" alt="${emoji}" src="${filename}" />`
+          `<img class="emoji" alt="${emoji}" src="${settings.url(filename)}" />`
         );
       })
     );
