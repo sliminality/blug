@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>//</id>
+    <id>.//</id>
     <title>Sliminal Zone</title>
-    <updated>2025-10-29T03:07:50.861Z</updated>
+    <updated>2025-10-29T03:13:16.143Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Slim Lim</name>
         <email>slim@sarahlim.com</email>
         <uri>https://slim.computer</uri>
     </author>
-    <link rel="alternate" href="/"/>
-    <link rel="self" href="/feed.atom"/>
+    <link rel="alternate" href="./"/>
+    <link rel="self" href="./feed.atom"/>
     <subtitle>Slim's notes</subtitle>
     <logo>https://slim.computer/assets/img/headshot.jpg</logo>
-    <icon>/1f344.png</icon>
+    <icon>./1f344.png</icon>
     <rights>CC BY-NC 4.0 Slim Lim</rights>
     <entry>
         <title type="html"><![CDATA[The unreasonable effectiveness of chaotic knowledge acquisition]]></title>
-        <id>/chaotic-learning.html</id>
-        <link href="/chaotic-learning.html"/>
+        <id>./chaotic-learning.html</id>
+        <link href="./chaotic-learning.html"/>
         <updated>2024-06-19T20:27:00.000Z</updated>
         <content type="html"><![CDATA[
     <!doctype html>
     <html lang="en">
     <head>
       <title>The unreasonable effectiveness of chaotic knowledge acquisition</title>
-      <link rel="Shortcut Icon" type="image/x-icon" href="/1f344.png" />
+      <link rel="Shortcut Icon" type="image/x-icon" href="./1f344.png" />
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -41,17 +41,17 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="/style.css">
-      <link rel="preload" href="/prism-coy.css" as="style">
-      <link rel="preload" href="/prism-tomorrow.css" as="style">
-      <link id="prism" rel="stylesheet" href="/prism-coy.css">
-      <link rel="stylesheet" href=/katex.min.css>
+      <link rel="stylesheet" href="./style.css">
+      <link rel="preload" href="./prism-coy.css" as="style">
+      <link rel="preload" href="./prism-tomorrow.css" as="style">
+      <link id="prism" rel="stylesheet" href="./prism-coy.css">
+      <link rel="stylesheet" href=./katex.min.css>
     </head>
     <body>
       <script>0</script>
       <main class="pf57ace81">
         <header>
-          <a href="/">Home</a>
+          <a href="./">Home</a>
           <button id="toggle-btn" aria-label="enable dark theme">🌙</button>
         </header>
         <h1>The unreasonable effectiveness of chaotic knowledge acquisition</h1>
@@ -60,7 +60,7 @@
       <div class="children"></div>
     </div>
 <figure id="b360c3b84">
-      <img alt="Please ignore the fact that I haven’t written C in 7 years and only pretend to understand memory layout" src="/360c3b84-2b0f-43a9-bf26-8e3333109ed9.image.png">
+      <img alt="Please ignore the fact that I haven’t written C in 7 years and only pretend to understand memory layout" src="./360c3b84-2b0f-43a9-bf26-8e3333109ed9.image.png">
       <figcaption>Please ignore the fact that I haven’t written C in 7 years and only pretend to understand memory layout</figcaption>
     </figure>
 <div class="text" id="be7fa6fa6">
@@ -101,11 +101,11 @@
       <div class="children"></div>
     </div>
 <figure id="b26ba42b4">
-      <img alt="Messy version of some notes on least fixed points" src="/26ba42b4-c467-4999-a3ed-29489761f651.image.png">
+      <img alt="Messy version of some notes on least fixed points" src="./26ba42b4-c467-4999-a3ed-29489761f651.image.png">
       <figcaption>Messy version of some notes on least fixed points</figcaption>
     </figure>
 <figure id="baa64cb05">
-      <img alt="Neatly typeset version of the same notes" src="/aa64cb05-b62d-4dc6-94a0-cdb88fd9877c.image.png">
+      <img alt="Neatly typeset version of the same notes" src="./aa64cb05-b62d-4dc6-94a0-cdb88fd9877c.image.png">
       <figcaption>Neatly typeset version of the same notes</figcaption>
     </figure>
 <div class="text" id="b181f4fa4">
@@ -200,8 +200,8 @@
       </div>
       
     </li></ul>
-        <footer><label>mentioned in</label><ul><li><a href="/index.html" class="with-emoji">
-      <img class="emoji" alt="" src="/1f344.png">
+        <footer><label>mentioned in</label><ul><li><a href="./index.html" class="with-emoji">
+      <img class="emoji" alt="" src="./1f344.png">
       Sliminal Zone</a></li></ul></footer>
       </main>
       <script>const stylesheet = /** @type {HTMLElement} */ (
@@ -263,15 +263,15 @@ setTheme(localStorage.getItem("theme") === "dark");
     </entry>
     <entry>
         <title type="html"><![CDATA[Overflowing with thoughts; at a loss for words]]></title>
-        <id>/29a93c44.html</id>
-        <link href="/29a93c44.html"/>
+        <id>./29a93c44.html</id>
+        <link href="./29a93c44.html"/>
         <updated>2025-10-28T23:57:00.000Z</updated>
         <content type="html"><![CDATA[
     <!doctype html>
     <html lang="en">
     <head>
       <title>Overflowing with thoughts; at a loss for words</title>
-      <link rel="Shortcut Icon" type="image/x-icon" href="/1f344.png" />
+      <link rel="Shortcut Icon" type="image/x-icon" href="./1f344.png" />
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -287,17 +287,17 @@ setTheme(localStorage.getItem("theme") === "dark");
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="/style.css">
-      <link rel="preload" href="/prism-coy.css" as="style">
-      <link rel="preload" href="/prism-tomorrow.css" as="style">
-      <link id="prism" rel="stylesheet" href="/prism-coy.css">
-      <link rel="stylesheet" href=/katex.min.css>
+      <link rel="stylesheet" href="./style.css">
+      <link rel="preload" href="./prism-coy.css" as="style">
+      <link rel="preload" href="./prism-tomorrow.css" as="style">
+      <link id="prism" rel="stylesheet" href="./prism-coy.css">
+      <link rel="stylesheet" href=./katex.min.css>
     </head>
     <body>
       <script>0</script>
       <main class="p29a93c44">
         <header>
-          <a href="/">Home</a>
+          <a href="./">Home</a>
           <button id="toggle-btn" aria-label="enable dark theme">🌙</button>
         </header>
         <h1>Overflowing with thoughts; at a loss for words</h1>
@@ -358,8 +358,8 @@ setTheme(localStorage.getItem("theme") === "dark");
       </div>
       
     </li></ul>
-        <footer><label>mentioned in</label><ul><li><a href="/index.html" class="with-emoji">
-      <img class="emoji" alt="" src="/1f344.png">
+        <footer><label>mentioned in</label><ul><li><a href="./index.html" class="with-emoji">
+      <img class="emoji" alt="" src="./1f344.png">
       Sliminal Zone</a></li></ul></footer>
       </main>
       <script>const stylesheet = /** @type {HTMLElement} */ (
@@ -421,15 +421,15 @@ setTheme(localStorage.getItem("theme") === "dark");
     </entry>
     <entry>
         <title type="html"><![CDATA[Look mom I have a blog now]]></title>
-        <id>/finally.html</id>
-        <link href="/finally.html"/>
+        <id>./finally.html</id>
+        <link href="./finally.html"/>
         <updated>2024-06-20T01:21:00.000Z</updated>
         <content type="html"><![CDATA[
     <!doctype html>
     <html lang="en">
     <head>
       <title>Look mom I have a blog now</title>
-      <link rel="Shortcut Icon" type="image/x-icon" href="/1f344.png" />
+      <link rel="Shortcut Icon" type="image/x-icon" href="./1f344.png" />
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -445,17 +445,17 @@ setTheme(localStorage.getItem("theme") === "dark");
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="/style.css">
-      <link rel="preload" href="/prism-coy.css" as="style">
-      <link rel="preload" href="/prism-tomorrow.css" as="style">
-      <link id="prism" rel="stylesheet" href="/prism-coy.css">
-      <link rel="stylesheet" href=/katex.min.css>
+      <link rel="stylesheet" href="./style.css">
+      <link rel="preload" href="./prism-coy.css" as="style">
+      <link rel="preload" href="./prism-tomorrow.css" as="style">
+      <link id="prism" rel="stylesheet" href="./prism-coy.css">
+      <link rel="stylesheet" href=./katex.min.css>
     </head>
     <body>
       <script>0</script>
       <main class="p03239430">
         <header>
-          <a href="/">Home</a>
+          <a href="./">Home</a>
           <button id="toggle-btn" aria-label="enable dark theme">🌙</button>
         </header>
         <h1>Look mom I have a blog now</h1>
@@ -552,8 +552,8 @@ setTheme(localStorage.getItem("theme") === "dark");
       
       <div class="children"></div>
     </div>
-        <footer><label>mentioned in</label><ul><li><a href="/index.html" class="with-emoji">
-      <img class="emoji" alt="" src="/1f344.png">
+        <footer><label>mentioned in</label><ul><li><a href="./index.html" class="with-emoji">
+      <img class="emoji" alt="" src="./1f344.png">
       Sliminal Zone</a></li></ul></footer>
       </main>
       <script>const stylesheet = /** @type {HTMLElement} */ (
