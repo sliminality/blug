@@ -120,6 +120,14 @@ main {
   margin: 80px auto 40px;
 }
 
+main > .text, main ul, main ol, main blockquote {
+  line-height: 1.6;
+}
+
+main > .text, main ul, main ol, main blockquote {
+  margin: 0 0 0.8em;
+}
+
 footer {
   padding-top: 20px;
 }
