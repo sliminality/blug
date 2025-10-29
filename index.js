@@ -1020,7 +1020,7 @@ const main = async function main() {
         new Date(last_edited_time).getTime() >
         new Date(existingPage?.updatedAt).getTime();
 
-      if (DEBUG || !existingPage || existingPageHasUpdates) {
+      if (!existingPage || existingPageHasUpdates) {
         existingPage =
           existingPage ||
           Page.build({
