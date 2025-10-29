@@ -241,9 +241,10 @@ details > :not(summary) {
 }
 
 hr {
-  margin: 32px 0;
-  border-color: var(--link-color);
-  opacity: 0.5;
+  margin: 32px auto;
+  border-bottom: none;
+  border-color: var(--dimmest);
+  opacity: 0.8;
 }
 
 .p06a5a7d9 {
