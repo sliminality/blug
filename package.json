@@ -5,7 +5,8 @@
     "watch:tsc": "tsc --watch --preserveWatchOutput",
     "watch:build": "nodemon --watch . --ignore build index.js",
     "watch:serve": "serve build",
-    "watch": "concurrently 'npm:watch:*'"
+    "watch": "concurrently 'npm:watch:*'",
+    "deploy": "node index.js && cd build && git init && git commit --allow-empty -m 'Update blog' && git checkout gh-pages && git add . && git commit -am 'Update blog' && git push git@github.com:sliminality/blug.git gh-pages --force"
   },
   "dependencies": {
     "@notionhq/client": "^0.4.13",
