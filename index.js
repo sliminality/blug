@@ -517,6 +517,9 @@ async function savePage(
       <meta name="twitter:site" content="${settings.twitterHandle}" />
       <meta name="twitter:title" content="${title}" />
 
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="${settings.url("style.css")}">
       <link rel="preload" href="${settings.url("prism-coy.css")}" as="style">
       <link rel="preload" href="${settings.url(
