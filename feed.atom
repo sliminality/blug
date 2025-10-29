@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>.//</id>
     <title>Sliminal Zone</title>
-    <updated>2025-10-29T03:13:16.143Z</updated>
+    <updated>2025-10-29T03:16:03.729Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Slim Lim</name>
@@ -263,8 +263,8 @@ setTheme(localStorage.getItem("theme") === "dark");
     </entry>
     <entry>
         <title type="html"><![CDATA[Overflowing with thoughts; at a loss for words]]></title>
-        <id>./29a93c44.html</id>
-        <link href="./29a93c44.html"/>
+        <id>./going-nonverbal.html</id>
+        <link href="./going-nonverbal.html"/>
         <updated>2025-10-28T23:57:00.000Z</updated>
         <content type="html"><![CDATA[
     <!doctype html>
@@ -334,7 +334,7 @@ setTheme(localStorage.getItem("theme") === "dark");
     </div><div class="text" id="b29a93c44">
       A few miscellaneous concluding observations:
       <div class="children"></div>
-    </div><ul id="bdd60cdff"><li id="b29a93c44">
+    </div><ul id="b8f3bfd12"><li id="b29a93c44">
       <div class="list-item">
         Recency bias is always possible, but I definitely think this phenomenon has become more pronounced over time. I can’t tell whether it’s because my command of language is eroding (making it harder to shape the slurry of instincts, feelings, and plasma into something cogent), my thoughts have simply become more complex as I grow up and learn more about the world, or a combination of both.
       </div>
