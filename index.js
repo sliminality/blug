@@ -20,6 +20,7 @@ const ts = require("typescript");
 
 // Set to the block ID to debug it
 const DEBUG = null;
+// const DEBUG = "29c93c44-9c1a-80e8-8728-f855cbe809c8"; // Test page
 // const DEBUG = "fe053dd4-76c3-4ed6-8137-24b7e319599c";
 
 const { Sequelize, Op, Model, DataTypes } = require("sequelize");
@@ -645,6 +646,7 @@ async function blockToHtml(block, pageId, allPages) {
    */
   if (pageId === DEBUG) {
     console.log("[DEBUG]", block.type, block.id);
+    // console.log("[DEBUG]", block.type, block.id, block);
   }
 
   const textToHtml_ = async (texts) => {
@@ -653,7 +655,38 @@ async function blockToHtml(block, pageId, allPages) {
     );
     return converts.join("");
   };
+
+  const tableRowToHtml = async (tableRowBlock, isHeader, hasColHeader) => {
+    const content = await Promise.all(tableRowBlock.table_row.cells.map(textToHtml_))
+    const row = `<tr id=${tableRowBlock.id}>${content.map(
+      (c, j) => isHeader === true 
+        ? `<th scope="col">${c}</th>` 
+        : hasColHeader && j === 0 
+          ? `<th scope="row">${c}</th>` 
+          : `<td>${c}</td>`
+    ).join("")}</tr>`
+    return isHeader === true ? `<thead>${row}</thead>` : row
+  }
+
   const blockId = "b" + block.id.replace(/-/g, "").slice(0, 8);
+
+  // For tables, handle them first, because we don't actually want to recursively serialize all children.
+  switch (block.type) {
+    case "table_row": {
+      // HACK(slim): If we get the table row itself, skip it. Handle table rows from the table parent.
+      return
+    }
+    case "table": {
+      const rows = await Promise.all(block.children.map((c, i) => {
+        if (c.type !== "table_row") {
+          throw new Error(`Found a table block ${block.id} with non-table_row child: ${c.id}, ${c.type}`)
+        }
+        return tableRowToHtml(c, block.table.has_row_header && i === 0, block.table.has_column_header)
+      }))
+      return `<table id=${blockId}>${rows.join("\n")}</table>`
+    }
+  }
+
   const children = await Promise.all(
     block.children.map((block) => blockToHtml(block, pageId, allPages))
   );
@@ -1011,9 +1044,13 @@ const main = async function main() {
     },
     async (page, notion) => {
       const { id, created_time, last_edited_time, icon, properties } = page;
+
       if (DEBUG && id !== DEBUG) {
+        console.log("skipping page", id)
         return;
       }
+
+      console.log("checking page for updates", id)
 
       let existingPage = await Page.findByPk(id);
       const existingPageHasUpdates =
